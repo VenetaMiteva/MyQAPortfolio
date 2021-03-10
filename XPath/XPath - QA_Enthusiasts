@@ -1,0 +1,68 @@
+
+LOGIN
+
+Sign in (text): 
+//p[@class="h4 mb-4"][text()="Sign in"]
+//p[contains(text(),'Sign in')]
+Username field: 
+//input[@name='usernameOrEmail']
+Password field:
+//input[@name='password']
+Remember me (checkbox):
+//input[@formcontrolname='rememberMe']
+Remember me (text):
+//*[text()='Remember me']
+Sign in button:
+//button[@id='sign-in-button']
+Not a member?:
+//*[contains(text(),'Not a member')]
+Register:
+//a[contains(text(),'Register')]
+Wrong username/password:
+//div[contains(text(),'Wrong username or password!')]
+
+
+FOOTER
+
+Version:
+//div[contains(text(),'Version: 2020.3.2.4300')]
+Technologies:
+//h6[contains(text(),'Technologies:')]
+Image 1:
+//img[@_ngcontent-ias-c2][1]
+Image 2:
+//img[@_ngcontent-ias-c2][2]
+Image 3:
+//img[@_ngcontent-ias-c2][3]
+
+
+REGISTRATION
+
+Sign up (text):
+//h4[contains(text(),'Sign up')]
+Username field:
+//input[@formcontrolname="username"]
+Username field error:
+//input[@formcontrolname="username"]/../span
+Email field:
+//input[@formcontrolname="email"]
+Email field error:
+//input[@formcontrolname="email"]/../span
+Date field:
+//input[@formcontrolname="birthDate"]
+Date field error:
+//div[@class="input-filed has-danger"][3]
+Password field:
+//input[@id="defaultRegisterFormPassword"]
+Password field error:
+//input[@id="defaultRegisterFormPassword"]/../span
+Confirm password field:
+//input[@id="defaultRegisterPhonePassword"]
+Confirm password field error:
+//div[@class="input-filed has-danger"][5]
+Public info field:
+//textarea[@name="pulic-info"]
+Public info field error:
+//div[@class="input-filed has-danger"][6]
+Sign in button:
+//button[@id="sign-in-button"]
